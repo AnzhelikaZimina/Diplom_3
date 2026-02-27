@@ -1,0 +1,180 @@
+{
+  "uid" : "e2043e103bfbb11f",
+  "name" : "Вход через кнопку 'Войти в аккаунт'",
+  "fullName" : "test.LoginTest.testLoginFromButtonOnConstructorPage",
+  "historyId" : "8db69585ca3444b9612e7ff03ac0bbb8",
+  "time" : {
+    "start" : 1772200930540,
+    "stop" : 1772200944158,
+    "duration" : 13618
+  },
+  "description" : "Проверка входа через кнопку 'Войти в аккаунт' на странице конструктора",
+  "descriptionHtml" : "<p>Проверка входа через кнопку 'Войти в аккаунт' на странице конструктора</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка входа через кнопку 'Войти в аккаунт' на странице конструктора",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создаём нового пользователя",
+      "time" : {
+        "start" : 1772200942687,
+        "stop" : 1772200943076,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "request",
+        "value" : "CreateUserRequest(email=test1772200942687@test.com, password=123456, name=TestUser)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Кликаем на кнопку 'Войти в аккаунт'",
+      "time" : {
+        "start" : 1772200943076,
+        "stop" : 1772200943159,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Вводим email",
+      "time" : {
+        "start" : 1772200943160,
+        "stop" : 1772200943260,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "test1772200942687@test.com"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Вводим пароль",
+      "time" : {
+        "start" : 1772200943260,
+        "stop" : 1772200943340,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "123456"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажимаем на кнопку входа",
+      "time" : {
+        "start" : 1772200943340,
+        "stop" : 1772200943421,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ждём пока кнопка 'Сделать заказ' станет видимой",
+      "time" : {
+        "start" : 1772200943421,
+        "stop" : 1772200943975,
+        "duration" : 554
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем кнопку 'Сделать заказ' на видимость",
+      "time" : {
+        "start" : 1772200943975,
+        "stop" : 1772200944006,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginFromButtonOnConstructorPage"
+  }, {
+    "name" : "suite",
+    "value" : "test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anzhelika_PC"
+  }, {
+    "name" : "thread",
+    "value" : "23968@Anzhelika_PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2043e103bfbb11f.json",
+  "parameterValues" : [ ]
+}

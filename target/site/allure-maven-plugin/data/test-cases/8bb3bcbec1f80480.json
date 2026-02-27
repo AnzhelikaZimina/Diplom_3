@@ -1,0 +1,205 @@
+{
+  "uid" : "8bb3bcbec1f80480",
+  "name" : "Успешная регистрация",
+  "fullName" : "test.RegistrationTest.testSuccessfulRegistration",
+  "historyId" : "82447541b7312e0989d0fe52160a587d",
+  "time" : {
+    "start" : 1772201131637,
+    "stop" : 1772201136048,
+    "duration" : 4411
+  },
+  "description" : "Проверка успешной регистрации пользователя с валидными данными",
+  "descriptionHtml" : "<p>Проверка успешной регистрации пользователя с валидными данными</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка успешной регистрации пользователя с валидными данными",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажимаем на кнопку 'Личный Кабинет'",
+      "time" : {
+        "start" : 1772201134782,
+        "stop" : 1772201134900,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажимаем на ссылку регистрации",
+      "time" : {
+        "start" : 1772201134900,
+        "stop" : 1772201134985,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Печатаем имя",
+      "time" : {
+        "start" : 1772201134985,
+        "stop" : 1772201135063,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "TestUser"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Печатаем email",
+      "time" : {
+        "start" : 1772201135063,
+        "stop" : 1772201135143,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "test1772201134782@test.com"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Печатаем пароль",
+      "time" : {
+        "start" : 1772201135143,
+        "stop" : 1772201135224,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "123456"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажимаем на кнопку 'Зарегистрироваться'",
+      "time" : {
+        "start" : 1772201135224,
+        "stop" : 1772201135308,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ждём пока не появится кнопка входа",
+      "time" : {
+        "start" : 1772201135308,
+        "stop" : 1772201135864,
+        "duration" : 556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем кнопку входа на видимость",
+      "time" : {
+        "start" : 1772201135864,
+        "stop" : 1772201135910,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "test.RegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "Anzhelika_PC"
+  }, {
+    "name" : "thread",
+    "value" : "24516@Anzhelika_PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8248ccba34e1afa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1772200946964,
+        "stop" : 1772200950160,
+        "duration" : 3196
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8bb3bcbec1f80480.json",
+  "parameterValues" : [ ]
+}

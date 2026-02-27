@@ -1,5 +1,6 @@
 package pageobjects;
 
+import io.qameta.allure.Step;
 import lombok.Getter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,10 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 @Getter
 public class ConstructorPage extends BasePage {
-    private final By personalAccountButton = By.xpath("//*[@id=\"root\"]/div/header/nav/a");
-    private final By bunSectionButton = By.xpath("//*[@id=\"root\"]/div/main/section[1]/div[1]/div[1]");
-    private final By saucesSectionButton = By.xpath("//*[@id=\"root\"]/div/main/section[1]/div[1]/div[2]");
-    private final By fillingsSectionButton = By.xpath("//*[@id=\"root\"]/div/main/section[1]/div[1]/div[3]");
+    private final By personalAccountButton = By.xpath("//nav/a");
+    private final By bunSectionButton = By.xpath("//main/section[1]/div[1]/div[1]");
+    private final By saucesSectionButton = By.xpath("//main/section[1]/div[1]/div[2]");
+    private final By fillingsSectionButton = By.xpath("//main/section[1]/div[1]/div[3]");
     private final By bunSectionHeader = By.xpath("//h2[text()='Булки']");
     private final By saucesSectionHeader = By.xpath("//h2[text()='Соусы']");
     private final By fillingsSectionHeader = By.xpath("//h2[text()='Начинки']");
@@ -18,7 +19,7 @@ public class ConstructorPage extends BasePage {
     private final By mainPageButton = By.xpath("//a[text()='Конструктор']");
     private final By orderButton = By.xpath("//button[text()='Оформить заказ']");
     private final By loadingOverlay = By.xpath("//*[@id=\"root\"]/div/div/div");
-    private final By loginButton = By.xpath("//*[@id=\"root\"]/div/main/section[2]/div/button");
+    private final By loginButton = By.xpath("//main/section[2]/div/button");
 
     public ConstructorPage(WebDriver driver) {
         super(driver);
@@ -28,6 +29,7 @@ public class ConstructorPage extends BasePage {
         getWait().until(ExpectedConditions.elementToBeClickable(locator));
     }
 
+    @Step("Нажимаем на кнопку 'Личный Кабинет'")
     public void clickPersonalAccountButton() {
         waitForElementToBeClickable(personalAccountButton);
         click(personalAccountButton);
@@ -38,26 +40,47 @@ public class ConstructorPage extends BasePage {
         getWait().until(ExpectedConditions.attributeContains(locator, "class", "tab_tab_type_current"));
     }
 
+    @Step("Переходим на секцию Булки")
     public void clickBunSectionButton() {
         clickSectionButton(bunSectionButton);
     }
 
+    @Step("Переходим на секцию Соусы")
     public void clickSaucesSectionButton() {
         clickSectionButton(saucesSectionButton);
     }
 
+    @Step("Переходим на секцию Начинки")
     public void clickFillingsSectionButton() {
         clickSectionButton(fillingsSectionButton);
     }
 
+    @Step("Проверяем переход на секцию Булки")
+    public boolean getBunsSectionHighlighted() {
+        return getDriver().findElement(bunSectionButton).getAttribute("class").contains("tab_tab_type_current");
+    }
+
+    @Step("Проверяем переход на секцию Соусы")
+    public boolean getSaucesSectionHighlighted() {
+        return getDriver().findElement(saucesSectionButton).getAttribute("class").contains("tab_tab_type_current");
+    }
+
+    @Step("Проверяем переход на секцию Начинки")
+    public boolean getFillingsSectionHighlighted() {
+        return getDriver().findElement(fillingsSectionButton).getAttribute("class").contains("tab_tab_type_current");
+    }
+
+    @Step("Кликаем на кнопку 'Войти в аккаунт'")
     public void clickLoginButton() {
         click(loginButton);
     }
 
+    @Step("Проверяем кнопку 'Сделать заказ' на видимость")
     public boolean isOrderButtonVisible() {
         return isElementVisible(orderButton);
     }
 
+    @Step("Ждём пока кнопка 'Сделать заказ' станет видимой")
     public void waitForOrderButtonToBeVisible() {
         getWait().until(ExpectedConditions.visibilityOfElementLocated(orderButton));
     }

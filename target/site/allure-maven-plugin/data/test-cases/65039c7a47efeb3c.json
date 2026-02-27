@@ -1,0 +1,121 @@
+{
+  "uid" : "65039c7a47efeb3c",
+  "name" : "Переход к разделу 'Булки'",
+  "fullName" : "test.ConstructorTest.testSwitchToBunsSection",
+  "historyId" : "905fd14c3be88615a2af0d901932a33f",
+  "time" : {
+    "start" : 1772201084046,
+    "stop" : 1772201089859,
+    "duration" : 5813
+  },
+  "description" : "Проверка перехода к разделу 'Булки' в конструкторе",
+  "descriptionHtml" : "<p>Проверка перехода к разделу 'Булки' в конструкторе</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка перехода к разделу 'Булки' в конструкторе",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переходим на секцию Начинки",
+      "time" : {
+        "start" : 1772201088898,
+        "stop" : 1772201089001,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Переходим на секцию Булки",
+      "time" : {
+        "start" : 1772201089001,
+        "stop" : 1772201089718,
+        "duration" : 717
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем переход на секцию Булки",
+      "time" : {
+        "start" : 1772201089720,
+        "stop" : 1772201089749,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.ConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSwitchToBunsSection"
+  }, {
+    "name" : "suite",
+    "value" : "test.ConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "Anzhelika_PC"
+  }, {
+    "name" : "thread",
+    "value" : "24516@Anzhelika_PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e80994f3d2cdf7a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1772200912658,
+        "stop" : 1772200916451,
+        "duration" : 3793
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65039c7a47efeb3c.json",
+  "parameterValues" : [ ]
+}

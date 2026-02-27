@@ -1,5 +1,6 @@
 package pageobjects;
 
+import io.qameta.allure.Step;
 import lombok.Getter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +13,7 @@ public class RecoveryPage extends BasePage {
         super(driver);
     }
 
+    @Step("Нажимаем на кнопку входа")
     public void clickLoginLink() {
         click(loginLink);
     }

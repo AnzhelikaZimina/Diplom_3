@@ -1,0 +1,106 @@
+{
+  "uid" : "bdda8b10f00d60ee",
+  "name" : "Переход к разделу 'Начинки'",
+  "fullName" : "test.ConstructorTest.testSwitchToFillingsSection",
+  "historyId" : "833aa499c8c3b421ee7630ca5593ad94",
+  "time" : {
+    "start" : 1772201081056,
+    "stop" : 1772201084044,
+    "duration" : 2988
+  },
+  "description" : "Проверка перехода к разделу 'Начинки' в конструкторе",
+  "descriptionHtml" : "<p>Проверка перехода к разделу 'Начинки' в конструкторе</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка перехода к разделу 'Начинки' в конструкторе",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переходим на секцию Начинки",
+      "time" : {
+        "start" : 1772201083777,
+        "stop" : 1772201083891,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем переход на секцию Начинки",
+      "time" : {
+        "start" : 1772201083891,
+        "stop" : 1772201083920,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.ConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSwitchToFillingsSection"
+  }, {
+    "name" : "suite",
+    "value" : "test.ConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "Anzhelika_PC"
+  }, {
+    "name" : "thread",
+    "value" : "24516@Anzhelika_PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f9e00c92e7aff5f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1772200909746,
+        "stop" : 1772200912656,
+        "duration" : 2910
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdda8b10f00d60ee.json",
+  "parameterValues" : [ ]
+}

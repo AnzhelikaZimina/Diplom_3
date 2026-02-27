@@ -1,0 +1,180 @@
+{
+  "uid" : "783ebb5869a88377",
+  "name" : "Вход через кнопку 'Личный кабинет'",
+  "fullName" : "test.LoginTest.testLoginFromPersonalAccount",
+  "historyId" : "b9264cf6a244437fe9de8cbfe0760476",
+  "time" : {
+    "start" : 1772200920892,
+    "stop" : 1772200925060,
+    "duration" : 4168
+  },
+  "description" : "Проверка входа через кнопку 'Личный кабинет'",
+  "descriptionHtml" : "<p>Проверка входа через кнопку 'Личный кабинет'</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка входа через кнопку 'Личный кабинет'",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создаём нового пользователя",
+      "time" : {
+        "start" : 1772200923572,
+        "stop" : 1772200923973,
+        "duration" : 401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "request",
+        "value" : "CreateUserRequest(email=test1772200923572@test.com, password=123456, name=TestUser)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажимаем на кнопку 'Личный Кабинет'",
+      "time" : {
+        "start" : 1772200923973,
+        "stop" : 1772200924096,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Вводим email",
+      "time" : {
+        "start" : 1772200924097,
+        "stop" : 1772200924218,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "test1772200923572@test.com"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Вводим пароль",
+      "time" : {
+        "start" : 1772200924218,
+        "stop" : 1772200924284,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "123456"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажимаем на кнопку входа",
+      "time" : {
+        "start" : 1772200924284,
+        "stop" : 1772200924367,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ждём пока кнопка 'Сделать заказ' станет видимой",
+      "time" : {
+        "start" : 1772200924367,
+        "stop" : 1772200924924,
+        "duration" : 557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем кнопку 'Сделать заказ' на видимость",
+      "time" : {
+        "start" : 1772200924924,
+        "stop" : 1772200924954,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginFromPersonalAccount"
+  }, {
+    "name" : "suite",
+    "value" : "test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anzhelika_PC"
+  }, {
+    "name" : "thread",
+    "value" : "23968@Anzhelika_PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "783ebb5869a88377.json",
+  "parameterValues" : [ ]
+}

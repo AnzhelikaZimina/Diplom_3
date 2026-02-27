@@ -15,5 +15,5 @@ UI-тесты для Stellar Burgers с Page Object и Allure-отчётом.
 mvn test
 
 # Яндекс Браузер
-mvn test -Dbrowser=yandex -Dwebdriver.chrome.drive=путь к драйверу ЯндексБраузера
+mvn test -Dbrowser=yandex
 ```

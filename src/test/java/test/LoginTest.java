@@ -3,6 +3,7 @@ package test;
 import api.UserApi;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import pageobjects.AuthPage;
@@ -91,6 +92,12 @@ public class LoginTest extends BaseTest {
         constructorPage.clickLoginButton();
 
         login();
+    }
+
+    @After
+    public void teardown() {
+        super.teardown();
+        UserApi.deleteAllCreatedUsers();
     }
 
 }

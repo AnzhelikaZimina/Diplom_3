@@ -1,11 +1,9 @@
 package test;
 
-import api.UserApi;
 import constants.Constants;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.restassured.RestAssured;
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
@@ -27,6 +25,7 @@ public class BaseTest {
         if ("chrome".equals(System.getProperty("browser", "chrome"))) {
             driver = createChromeDriver();
         } else {
+            System.setProperty("webdriver.chrome.driver", "F:/Dowloads/yandexdriver-23.9.0.2208-win/yandexdriver.exe");
             driver = new ChromeDriver();
         }
 
@@ -47,11 +46,6 @@ public class BaseTest {
         if (getDriver() != null) {
             driver.quit();
         }
-    }
-
-    @AfterClass
-    public static void cleanup() {
-        UserApi.deleteAllCreatedUsers();
     }
 
     protected AuthPage register(String name, String email, String password) {

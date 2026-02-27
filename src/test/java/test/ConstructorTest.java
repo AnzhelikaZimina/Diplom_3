@@ -5,6 +5,8 @@ import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
 import pageobjects.ConstructorPage;
 
+import static org.junit.Assert.assertTrue;
+
 public class ConstructorTest extends BaseTest {
 
     @Test
@@ -16,6 +18,8 @@ public class ConstructorTest extends BaseTest {
         constructorPage.clickFillingsSectionButton();
 
         constructorPage.clickBunSectionButton();
+
+        assertTrue("Переход на секцию Булки не произошёл", constructorPage.getBunsSectionHighlighted());
     }
 
     @Test
@@ -24,6 +28,7 @@ public class ConstructorTest extends BaseTest {
     public void testSwitchToSaucesSection() {
         ConstructorPage constructorPage = new ConstructorPage(getDriver());
         constructorPage.clickSaucesSectionButton();
+        assertTrue("Переход на секцию Соусы не произошёл", constructorPage.getSaucesSectionHighlighted());
     }
 
     @Test
@@ -32,5 +37,6 @@ public class ConstructorTest extends BaseTest {
     public void testSwitchToFillingsSection() {
         ConstructorPage constructorPage = new ConstructorPage(getDriver());
         constructorPage.clickFillingsSectionButton();
+        assertTrue("Переход на секцию Начинки не произошёл", constructorPage.getFillingsSectionHighlighted());
     }
 }

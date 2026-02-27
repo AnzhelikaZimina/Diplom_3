@@ -19,8 +19,8 @@ public class RegistrationTest extends BaseTest {
         String email = "test" + System.currentTimeMillis() + "@test.com";
         String password = "123456";
 
-        AuthPage authPage2 = register(name, email, password);
-        assertTrue("Форма входа не открылась после регистрации", authPage2.isLoginButtonVisible());
+        AuthPage authPage = register(name, email, password);
+        assertTrue("Форма входа не открылась после регистрации", authPage.isLoginButtonVisible());
     }
 
     @Test
