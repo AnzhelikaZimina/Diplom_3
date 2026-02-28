@@ -9,9 +9,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 @Getter
 public class ConstructorPage extends BasePage {
     private final By personalAccountButton = By.xpath("//nav/a");
-    private final By bunSectionButton = By.xpath("//main/section[1]/div[1]/div[1]");
-    private final By saucesSectionButton = By.xpath("//main/section[1]/div[1]/div[2]");
-    private final By fillingsSectionButton = By.xpath("//main/section[1]/div[1]/div[3]");
+    private final By bunSectionButton = By.xpath("//span[text()='Булки']//parent::div");
+    private final By saucesSectionButton = By.xpath("//span[text()='Соусы']//parent::div");
+    private final By fillingsSectionButton = By.xpath("//span[text()='Начинки']//parent::div");
     private final By bunSectionHeader = By.xpath("//h2[text()='Булки']");
     private final By saucesSectionHeader = By.xpath("//h2[text()='Соусы']");
     private final By fillingsSectionHeader = By.xpath("//h2[text()='Начинки']");
